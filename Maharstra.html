@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Maharashtra</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="css/flipstyle.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <style>
+ *{
+	margin: 0px;
+	padding: 0px;
+	/* box-sizing: border-box; */
+	font-family: arial;
+}
+body{
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* min-height: 20px; */
+	background: #000;
+    /* font-family: chiller; */
+}
+     h2{
+    margin: 10px;
+    padding: 30px;
+	position: relative;
+	font-size: 3em;
+	letter-spacing: 5px;
+	color: #0e3742;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	-webkit-box-reflect : below 1px linear-gradient(transparent , #0004);
+	line-height: 0.70em;
+	outline: none;
+	animation: animate 3s linear infinite;
+}
+@keyframes animate{
+	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+		color: #0e3742;
+		text-shadow: none;
+	}
+	18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+		color: #fff;
+		text-shadow: 0 0 10px #39ff14,
+		            0 0 20px #39ff14,
+		            0 0 40px #39ff14,
+		            0 0 80px #39ff14,
+		            0 0 160px #39ff14;
+
+	}
+}
+
+.menu-area{
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu-area li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 5px;
+}
+.menu-area li a{
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    transition: all .6s ease-in;    
+}
+.menu-area li a:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background: #fff;
+    left: 0;
+    bottom: -15px;
+    transition: 0.6s;
+}
+.menu-area li a:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background: #fff;
+    right: 0;
+    top: -15px;
+    transition: 0.6s;
+}
+.menu-area li a:hover{
+    text-shadow: 0 0 10px rgba(233,85,99,1),
+	0 0 10px rgba(233,85,99,1);
+}
+.menu-area li a:hover:after{
+    width: 100%;
+    background: #fff;
+	box-shadow: 0 0 10px deepskyblue,
+	0 0 10px deepskyblue;
+}
+.menu-area li a:hover:before{
+    width: 100%;
+    background: #fff;
+	box-shadow: 0 0 10px deepskyblue,
+	0 0 10px deepskyblue;
+}
+.container1{
+    background-color: rgba(255, 255, 0, 0.637);
+}
+.container2{
+   background-color: grey;
+}
+   </style>
+</head>
+
+<body>
+   <h2><center>Welcome to Maharashtra Tourism</center></h2>
+   <div class="flip-main">
+      <div class="container">
+         <div class="row">
+            <!-- flip card-1 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="gatewayofindia.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;"><u><center>GATE WAY OF INDIA</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'"></p>>The Gateway of India is an arch-monument built in the early 20th century in the city of Mumbai (Bombay), India.
+                            The foundation stone was laid in March 1913 for a monument built in the Indo-Islamic style. the Gateway was used as a symbolic ceremonial entrance to India for important colonial personnel.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-1 end -->
+            <!-- flip card-2 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="tajhote.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Taj Hotel</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'"></p>>The Taj Mahal Palace is a heritage, five-star, luxury hotel in the Colaba area of Mumbai, Maharashtra, India, situated next to the Gateway of India.[1] Built in the Saracenic Revival style, it opened in 1903 as the Taj Mahal Hotel[2][3][4] and has historically often been known simply as "The Taj". The hotel is named after the Taj Mahal, which is located in the city of Agra approximately 1,050 kilometres (650 mi) from Mumbai. It has been considered one of the finest hotels in the East since the time of the British Raj. </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-2 end -->
+            <!-- flip card-3 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="lonavala.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color:#000;font-weight: bold;"><u><center>Lonavala</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">>Lonavla and the adjacent Khandala are twin hill stations 622 metres (2,041 ft) above sea level, in the Sahyadri ranges that demarcate the Deccan Plateau and the Konkan coast. The hill stations sprawl over an approximate area of 38 square kilometres (15 sq mi). Tourism peaks during the monsoon season.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-3 end -->
+            <!-- flip card-4 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="ellora-caves.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Ellora Caves</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">Ellora is a UNESCO World Heritage Site located in the Aurangabad of Maharashtra, India. It is one of the largest rock-cut Hindu temple cave complexes in the world, with artwork dating from the period 600–1000 CE.[1][2] Cave 16 features the largest single monolithic rock excavation in the world, the Kailash temple, a chariot-shaped monument dedicated to the god Shiva. The Kailash temple excavation also features sculptures depicting various Hindu deities as well as relief panels summarizing the two major Hindu epics.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-4 end -->
+            <!-- flip card-5 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="aurangabad.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Aurangabad</center></u></h3>
+                        <p style="font-style: oblique;">Aurangabad is a city in Maharashtra state in India. The city is a tourism hub, surrounded by many historical monuments, including the Ajanta Caves and Ellora Caves, which are UNESCO World Heritage Sites, as well as Bibi Ka Maqbara (replica of Taj Mahal) and Panchakki.. Aurangabad is known as "The City of Gates".</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-5 end -->
+            <!-- flip card-6 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="deekshabhoomi.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Nagpur-DeekshaBhoomi</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">Deekshabhoomi is a sacred monument of Navayana Buddhism located at Nagpur city in Maharashtra state of India, where Dr. B. R. Ambedkar, embraced Buddhism with approximately 600,000 of his followers mainly scheduled caste peoples on Ashoka Vijaya Dashami on 14 October 1956. Ambedkar revived Buddhism in India.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-6 end -->
+            <!-- flip card-7 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="mahabaleshwar.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Mahabaleshwar</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">Mahabaleshwar is a small town and a municipal council in Satara district, Maharashtra, India. It is a place of pilgrimage for Hindus because Krishna river has its origin here.[1] The British colonial rulers developed the town as a hill station, and served as the summer capital of Bombay Presidency during the British Raj.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-7 end -->
+            <!-- flip card-8 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="nashik.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Nashik</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">
+                            Nashik is an ancient city in the northwest region of Maharashtra in India. Situated on the banks of Godavari river Nashik is best known for being one of Hindu pilgrimage sites, that of Kumbh Mela which is held every 12 years.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-8 end -->
+            <!-- flip card-9 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="haji ali.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color:black;font-weight: bold;"><u><center>Haji Ali Dargah</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">
+                            The Haji Ali Dargah is a mosque and dargah or the monument of Pir Haji Ali Shah Bukhari located on an islet off the coast of Worli in the southern Mumbai. An exquisite example of Indo-Islamic Architecture, associated with legends about doomed lovers, the dargah contains the tomb of Haji Ali Shah Bukhari.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-9 end -->
+         </div>
+      </div>
+      <div class="container2">
+        <h1 style="font-weight: bold;color: black;"><u><center>ABOUT THE STATE</center></u></h1>
+         <p style="font-family:'BASKERVILLE OLD FACE';font-size: 30px;">
+            Maharashtra is a state located in the western region of India. It is the second-most populous state in India and has a population of approximately 120 million people. The state covers an area of 307,713 square kilometers and has a diverse landscape that includes a long coastline, the Western Ghats, and the Deccan Plateau.
+
+            Mumbai, the financial capital of India, is the capital of Maharashtra. Other major cities in the state include Pune, Nagpur, Nashik, Aurangabad, and Solapur. Maharashtra is known for its rich cultural heritage, which is reflected in its art, music, literature, and cuisine.
+            
+            The state is also home to several important industries, including textiles, automobiles, chemicals, and pharmaceuticals. Maharashtra is the largest producer of sugarcane and grapes in India and is also known for its production of oranges, bananas, and mangoes.
+            
+            Maharashtra has several popular tourist destinations, including the Ajanta and Ellora Caves, the beaches of Mumbai and Goa, the hill stations of Lonavala and Mahabaleshwar, and the pilgrimage sites of Shirdi and Pandharpur.
+            
+            Marathi is the official language of Maharashtra, but Hindi and English are also widely spoken. The state has a diverse population, with people from different religions, castes, and communities living together in harmony.
+        </p>
+    </div>
+    <div style="text-align:center"> 
+      <button style="border-radius: 10px;color: blue; background-color: azure;size:20px;" onclick="playPause()">Play/Pause</button> 
+      <button style="border-radius: 10px;color: blue; background-color: azure; "onclick="makeBig()">Big</button>
+      <button style="border-radius: 10px;color: blue; background-color: azure;"onclick="makeSmall()">Small</button>
+      <button style="border-radius: 10px;color: blue; background-color: azure;"onclick="makeNormal()">Normal</button>
+      <br><br>
+      </div>
+    <iframe id="video1" margin="10px" width="750" height="360" src="https://www.youtube.com/embed/suXeSnFvBbI" title="Apla Maharashtra Unlimited | Maharashtra Tourism" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <script> 
+      var myVideo = document.getElementById("video1"); 
+      
+      function playPause() { 
+        if (myVideo.paused) 
+          myVideo.play(); 
+        else 
+          myVideo.pause(); 
+      } 
+      
+      function makeBig() { 
+          myVideo.width = 1260; 
+      } 
+      
+      function makeSmall() { 
+          myVideo.width = 420; 
+      } 
+      
+      function makeNormal() { 
+          myVideo.width = 720; 
+      } 
+      </script> 
+            <div class="container1" contenteditable="false">
+            <ul class="menu-area">
+                <li style="font-size: large;">&copy; copyright 2023-2029</li>
+                <li style="font-size: 10px;"><a href="HomePage.html" target="_blank">Home</a></li>
+                <li style="font-size: 10px;"><a href="index2.html"target="_blank">About</a></li>
+                <li style="font-size: 10px;"><a href="creators.html"target="_blank">Contact us</a></li>
+            </ul>
+        </div>
+</body>
+
+</html>

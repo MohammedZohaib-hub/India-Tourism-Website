@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Delhi</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="css/flipstyle.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <style>
+ *{
+	margin: 0px;
+	padding: 0px;
+	/* box-sizing: border-box; */
+	font-family: arial;
+}
+body{
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* min-height: 20px; */
+	background: #000;
+    /* font-family: chiller; */
+}
+     h2{
+    margin: 10px;
+    padding: 30px;
+	position: relative;
+	font-size: 3em;
+	letter-spacing: 5px;
+	color: #0e3742;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	-webkit-box-reflect : below 1px linear-gradient(transparent , #0004);
+	line-height: 0.70em;
+	outline: none;
+	animation: animate 3s linear infinite;
+}
+@keyframes animate{
+	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+		color: #0e3742;
+		text-shadow: none;
+	}
+	18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+		color: #fff;
+		text-shadow: 0 0 10px #ff1414,
+		            0 0 20px #ff1414,
+		            0 0 40px hwb(0 8% 0%),
+		            0 0 80px #ff1414,
+		            0 0 160px #ff1414;
+
+	}
+}
+
+.menu-area{
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu-area li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 5px;
+}
+.menu-area li a{
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    transition: all .6s ease-in;    
+}
+.menu-area li a:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background: #fff;
+    left: 0;
+    bottom: -15px;
+    transition: 0.6s;
+}
+.menu-area li a:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background: #fff;
+    right: 0;
+    top: -15px;
+    transition: 0.6s;
+}
+.menu-area li a:hover{
+    text-shadow: 0 0 10px rgba(233,85,99,1),
+	0 0 10px rgba(233,85,99,1);
+}
+.menu-area li a:hover:after{
+    width: 100%;
+    background: #fff;
+	box-shadow: 0 0 10px deepskyblue,
+	0 0 10px deepskyblue;
+}
+.menu-area li a:hover:before{
+    width: 100%;
+    background: #fff;
+	box-shadow: 0 0 10px deepskyblue,
+	0 0 10px deepskyblue;
+}
+.container1{
+    background-color: rgba(255, 255, 0, 0.763);
+}
+.container2{
+   background-color: gray;
+}
+   </style>
+</head>
+
+<body>
+   <h2><center>Welcome to Delhi Tourism</center></h2>
+   <div class="flip-main">
+      <div class="container">
+         <div class="row">
+            <!-- flip card-1 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="Red-Fort-Old-Delhi-India.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Red Fort</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">The Red Fort Complex was built as the palace fort of Shahjahanabad – the new capital of the fifth Mughal Emperor of India, Shah Jahan. Named for its massive enclosing walls of red sandstone, it is adjacent to an older fort, the Salimgarh, built by Islam Shah Suri in 1546, with which it forms the Red Fort ComplexThe Red Fort is considered to represent the zenith of Mughal creativity which, under the Shah Jahan, was brought to a new level of refinement. The planning of the palace is based on Islamic prototypes</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-1 end -->
+            <!-- flip card-2 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="India-Gate.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>India Gate</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">The India Gate (formerly known as the All India War Memorial) is a war memorial located near the Kartavya path on the eastern edge of the "ceremonial axis" of New Delhi, formerly called duty path. It stands as a memorial to 84,000 soldiers of the British Indian Army who died between 1914 and 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-2 end -->
+            <!-- flip card-3 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="humayun tomb.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color:black;font-weight: bolder;"><u><center>Humayun's Tomb</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">Humayun’s garden-tomb is also called the ‘dormitory of the Mughals’ as in the cells are buried over 150 Mughal family members.
+
+                            The tomb stands in an extremely significant archaeological setting, centred at the Shrine of the 14th century Sufi Saint, Hazrat Nizamuddin Auliya. Since it is considered auspicious to be buried near a saint’s grave, seven centuries of tomb building has led to the area becoming the densest ensemble of medieval Islamic buildings in India.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-3 end -->
+            <!-- flip card-4 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="lotus temple (1).png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color:black;font-weight: bolder;"><u><center>Lotus Temple</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">
+                            The Lotus Temple was consecrated and opened to the public in December 1986. It was designed by Iranian architect Fariborz Sahba, who won acclaim for the project even before the temple was completed. It subsequently received several awards.
+
+                            The Lotus Temple derives its name from its design. Like every other Bahāʾī mashriq, it is characterized by a nine-sided construction, in keeping with the Bahāʾī belief in the mystical properties of the number nine. Set on an elevated plinth in a 26-acre (10.5-hectare)
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-4 end -->
+            <!-- flip card-5 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="akshardham.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Akshardham</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">'Akshardham' means the divine abode of God. It is hailed as an eternal place of devotion, purity and peace. Swaminarayan Akshardham at New Delhi is a Mandir – an abode of God, a Hindu house of worship, and a spiritual and cultural campus dedicated to devotion, learning and harmony. Timeless Hindu spiritual messages, vibrant devotional traditions and ancient architecture all are echoed in its art and architecture.The mandir is a humble tribute to Bhagwan Swaminarayan.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-5 end -->
+            <!-- flip card-6 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="Jama-Masjid-Delhi.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Jama Masjid </center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">Its construction was started in 1644 and completed by Mughal emperor Shah Jahan. Made of red sandstone and marble, this gorgeous mosque is also called Masjid-I-Jahanuma, meaning the mosque commanding the view of the world. The courtyard of the mosque has been built with red sandstone and can be accessed from the north, the south and the east, via flights of stairs that were once venues for house markets, food stalls and entertainers. The courtyard is so huge that it can easily accommodate 25,000 devotees at one time</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-6 end -->
+            <!-- flip card-7 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="lodhi garden.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color:black;font-weight: bold;"><u><center>Lodhi Gardens</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">Lodi Gardens is a city park situated in New Delhi, India. Spread over 90 acres (360,000 m2),it contains Mohammed Shah's Tomb, the Tomb of Sikandar Lodi, the Shisha Gumbad and the Bara Gumbad,architectural works of the 15th century by Lodis - who ruled parts of northern India and Punjab and Khyber Pakhtunkhwa province of modern-day Pakistan, from 1451 to 1526</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-7 end -->
+            <!-- flip card-8 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="bhavan.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color:black;font-weight: bold;"><u><center> Rashtrapati Bhavan</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">
+                            Rashtrapati Bhavan was the creation of architects of exceptional imagination and masterfulness, Sir Edwin Lutyens and Herbert Baker. It was Sir Lutyens who conceptualized the H shaped building, covering an area of 5 acres on a 330 acre estate. This mansion has a total of 340 rooms spread over four floors, 2.5 kilometres of corridors and 190 acres of garden area.
+                            Painstaking efforts of thousands of labourers including masons, carpenters, artists, carvers, and cutters saw the completion of this masterwork in the year 1929.
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-8 end -->
+            <!-- flip card-9 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="Qutub-Minar-Delhi.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black"><u><center>Qutub Minar</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">
+                            This victory tower is a symbol of the synthesis of traditional Islamic architecture and Southwestern Asian design. Elizabeth Lambourn’s Islam Beyond Empires: Mosques and Islamic Landscapes in India and the Indian Ocean studies the introduction of Islam in South Asia and how the region influenced the Islamic religious architecture.These newly arrived Muslims from the Islamic West escaped the Mongol Empire and emigrated to India, where they constructed religious centers. 
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-9 end -->
+         </div>
+      </div>
+      <div class="container2">
+        <h1 style="font-weight: bold;color: black;"><u><center>ABOUT THE STATE</center></u></h1>
+         <p style="font-family:'BASKERVILLE OLD FACE';font-size: 30px;">
+            Delhi, officially known as the National Capital Territory of Delhi, is the capital city of India. It is located in northern India and is bordered by the states of Haryana on three sides and Uttar Pradesh to the east. Delhi is one of the largest and most populous cities in India, with a population of over 30 million people in its metropolitan area.
+
+            The city is known for its rich history, as it has been inhabited for thousands of years and has been the capital of various empires and kingdoms, including the Mughal Empire and the British Raj. Delhi is home to many historical monuments and landmarks, including the Red Fort, Qutub Minar, India Gate, and Humayun's Tomb, which attract millions of tourists each year.
+            
+            Delhi is also a major political and commercial hub, with many government offices, corporate headquarters, and markets located in the city. The city has a diverse economy, with industries ranging from information technology to manufacturing, and is also an important center for education and research, with many prestigious universities and institutes located in the city.
+            
+            Delhi has a rich culture and is known for its cuisine, which includes dishes from all over India as well as unique local specialties such as chaat, chole bhature, and paranthas. The city also hosts many cultural festivals and events throughout the year, including the annual Delhi Book Fair, the India International Trade Fair, and the Delhi International Film Festival.
+        </p>
+    </div>
+    <div style="text-align:center"> 
+      <button style="border-radius: 10px;color: blue; background-color: azure;size:20px;" onclick="playPause()">Play/Pause</button> 
+      <button style="border-radius: 10px;color: blue; background-color: azure; "onclick="makeBig()">Big</button>
+      <button style="border-radius: 10px;color: blue; background-color: azure;"onclick="makeSmall()">Small</button>
+      <button style="border-radius: 10px;color: blue; background-color: azure;"onclick="makeNormal()">Normal</button>
+      <br><br>
+      </div>
+    <iframe id="video1" width="640" height="360" src="https://www.youtube.com/embed/JW1jSINTzaw" title="New Delhi - Modern and Beautiful Delhi 2022 | Capital of india *Reupload*" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <script> 
+      var myVideo = document.getElementById("video1"); 
+      
+      function playPause() { 
+        if (myVideo.paused) 
+          myVideo.play(); 
+        else 
+          myVideo.pause(); 
+      } 
+      
+      function makeBig() { 
+          myVideo.width = 1260; 
+      } 
+      
+      function makeSmall() { 
+          myVideo.width = 320; 
+      } 
+      
+      function makeNormal() { 
+          myVideo.width = 620; 
+      } 
+      </script> 
+            <div class="container1" contenteditable="false">
+            <ul class="menu-area">
+                <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+                <li style="font-size: large;">&copy; copyright 2023-2029</li>
+                <li style="font-size: 10px;"><a href="HomePage.html".html" target="_blank">Home</a></li>
+                <li style="font-size: 10px;"><a href="index2.html" target="_blank">About</a></li>
+                <li style="font-size: 10px;"><a href="creators.html" target="_blank">Contact us</a></li>
+            </ul>
+        </div>
+</body>
+
+</html>

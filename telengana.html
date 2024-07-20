@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Telengana</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="css/flipstyle.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <style>
+      * {
+         margin: 0px;
+         padding: 0px;
+         /* box-sizing: border-box; */
+         font-family: arial;
+      }
+
+      body {
+         /* display: flex; */
+         /* justify-content: center; */
+         /* align-items: center; */
+         /* min-height: 20px; */
+         background: #000;
+         /* font-family: chiller; */
+      }
+
+      h2 {
+         margin: 10px;
+         padding: 30px;
+         position: relative;
+         font-size: 3em;
+         letter-spacing: 5px;
+         color: #0e3742;
+         text-transform: uppercase;
+         width: 100%;
+         text-align: center;
+         -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+         line-height: 0.70em;
+         outline: none;
+         animation: animate 3s linear infinite;
+      }
+
+      @keyframes animate {
+
+         0%,
+         18%,
+         20%,
+         50.1%,
+         60%,
+         65.1%,
+         80%,
+         90.1%,
+         92% {
+            color: #0e3742;
+            text-shadow: none;
+         }
+
+         18.1%,
+         20.1%,
+         30%,
+         50%,
+         60.1%,
+         65%,
+         80.1%,
+         90%,
+         92.1%,
+         100% {
+            color: #fff;
+            text-shadow: 0 0 10px #39ff14,
+               0 0 20px #39ff14,
+               0 0 40px #39ff14,
+               0 0 80px #39ff14,
+               0 0 160px #39ff14;
+
+         }
+      }
+
+      .menu-area {
+         display: flex;
+         align-items: last baseline;
+         justify-content: space-between;
+         flex-wrap: wrap;
+      }
+
+      .menu-area li {
+         display: inline-block;
+         list-style: none;
+         margin: 5px 5px;
+      }
+
+      .menu-area li a {
+         color: red;
+         text-decoration: none;
+         font-size: 25px;
+         font-weight: 500;
+         position: relative;
+         transition: all .6s ease-in;
+      }
+
+      .menu-area li a:after {
+         content: '';
+         position: absolute;
+         width: 0;
+         height: 4px;
+         background: #fff;
+         left: 0;
+         bottom: -15px;
+         transition: 0.6s;
+      }
+
+      .menu-area li a:before {
+         content: '';
+         position: absolute;
+         width: 0;
+         height: 4px;
+         background: #fff;
+         right: 0;
+         top: -15px;
+         transition: 0.6s;
+      }
+
+      .menu-area li a:hover {
+         text-shadow: 0 0 10px rgba(233, 85, 99, 1),
+            0 0 10px rgba(233, 85, 99, 1);
+      }
+
+      .menu-area li a:hover:after {
+         width: 100%;
+         background: #fff;
+         box-shadow: 0 0 10px deepskyblue,
+            0 0 10px deepskyblue;
+      }
+
+      .menu-area li a:hover:before {
+         width: 100%;
+         background: #fff;
+         box-shadow: 0 0 10px deepskyblue,
+            0 0 10px deepskyblue;
+      }
+
+      .container1{
+         background-color: grey;
+      }
+      .container2{
+         background-color: rgba(255, 255, 0, 0.674);
+      }
+   </style>
+</head>
+
+<body>
+   <h2>
+      <center>Welcome to Telengana Tourism</center>
+   </h2>
+   <div class="flip-main">
+      <div class="container">
+         <div class="row">
+            <!-- flip card-1 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="images/m_t_charminar.jpg" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: BLACK"><u>
+                              <center>CHARMINAR</center>
+                           </u></h3>
+                           <p style="font-family:'BASKERVILLE OLD FACE'">Charminar is an iconic monument located in the heart of the old
+                           city of Hyderabad, India. It was built in 1591 by Muhammad Quli Qutb Shah, the fifth Sultan
+                           of the Qutb Shahi dynasty. The monument is known for its distinctive Islamic architecture and
+                           is surrounded by bustling markets and bazaars. The Charminar has four minarets, each standing
+                           at 56 meters, and is considered to be one of the most recognizable landmarks in India. It is
+                           a popular tourist attraction and a symbol of Hyderabad's rich cultural heritage.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-1 end -->
+            <!-- flip card-2 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="images/m_t_birla.jpeg" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;"><u>
+                              <center>BIRLA MANDIR</center>
+                           </u></h3>
+                           <p style="font-family:'BASKERVILLE OLD FACE'">Birla Mandir, also known as Laxmi Narayan Temple, is a Hindu
+                           temple located in the heart of New Delhi, India. It was built by the industrialist Birla
+                           family in 1939 and is dedicated to the deities Laxmi (goddess of wealth) and Narayan (Lord
+                           Vishnu). The temple is made of white marble and features intricate carvings and sculptures.
+                           It is surrounded by lush gardens and offers a panoramic view of the city. The Birla Mandir is
+                           a popular tourist attraction and a place of worship for devotees of Lord Vishnu and Laxmi.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-2 end -->
+            <!-- flip card-3 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="images/m_t_kuntala.jpeg" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: BLACK"><u>
+                              <center>KUNTALA</center>
+                           </u></h3>
+                           <p style="font-family:'BASKERVILLE OLD FACE'">Kuntala is a picturesque waterfall located in the Adilabad
+                           district of Telangana state, India. It is situated amidst dense forests and is one of the
+                           highest waterfalls in the state, with a height of approximately 147 feet. The waterfall is
+                           formed by the Kadam river and is surrounded by scenic hills and valleys. It is a popular
+                           tourist destination and attracts a large number of visitors throughout the year. The area
+                           around Kuntala is also known for its rich biodiversity, and visitors can spot a variety of
+                           flora and fauna in the region.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-3 end -->
+            <!-- flip card-4 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="images/m_t_mecca.jpeg" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: BLACK"><u>
+                              <center>MECCA MASJID</center>
+                           </u></h3>
+                           <p style="font-family:'BASKERVILLE OLD FACE'">Mecca Masjid is a grand mosque located in the old city of
+                           Hyderabad, India. It was built during the reign of Sultan Muhammad Quli Qutb Shah in the late
+                           17th century and is one of the largest mosques in India, with a capacity of approximately
+                           10,000 worshippers. The mosque is named after the city of Mecca, which is the holiest site in
+                           Islam, and is known for its impressive architecture and intricate design.It is a popular
+                           place of worship and a significant cultural landmark in
+                           Hyderabad.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-4 end -->
+            <!-- flip card-5 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="images/m_t_medak.jpg" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color:BLACK"><u>
+                              <center>MEDAK</center>
+                           </u></h3>
+                           <p style="font-family:'BASKERVILLE OLD FACE'">Medak is a historic town located in the Medak district of
+                           Telangana state, India. It is known for its impressive Medak Cathedral, which is one of the
+                           largest churches in India and features a Gothic Revival style of architecture. The town is
+                           also home to several other historic landmarks, including the Medak Fort, which dates back to
+                           the 14th century. Medak is surrounded by lush green fields and offers a serene and peaceful
+                           environment. It is a popular destination for tourists looking to explore the rich history and
+                           culture of Telangana.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-5 end -->
+            <!-- flip card-6 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="images/m_t_ramappa.jpg" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: BLACK"><u>
+                              <center>RAMAPPA</center>
+                           </u></h3>
+                           <p style="font-family:'BASKERVILLE OLD FACE'">Ramappa is a small village located in the Palampet Mandal of
+                           Jayashankar Bhupalpally district in Telangana, India. It is known for the famous Ramappa
+                           Temple, which was built during the rule of the Kakatiya dynasty in the 13th century. The
+                           temple is a UNESCO World Heritage Site and is known for its intricate carvings and beautiful
+                           sculptures. Ramappa village is surrounded by lush green forests and hills, and visitors can
+                           enjoy scenic walks and hikes in the area.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-6 end -->
+            <!-- flip card-7 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="images/m_t_ramoji.jpg" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: BLACK"><u>
+                              <center>RAMOJI FILIM CITY</center>
+                           </u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">Ramoji Film City is a massive film
+                           studio complex located in Hyderabad, Telangana, India. The studio is spread over 2,000 acres
+                           and is the
+                           largest integrated film city in the world, according to the Guinness Book of World Records.
+                           Ramoji Film City offers a range of facilities and services, including film production
+                           studios, sound stages, post-production facilities, and more.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-7 end -->
+            <!-- flip card-8 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="images/m_t_thousandpillartemple.jpeg" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: BLACK"><u>
+                              <center>THOUSAND PILLAR TEMPLE</center>
+                           </u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">
+                           Thousand Pillar Temple is a historic Hindu temple located in Warangal, Telangana, India. It
+                           was built during the Kakatiya dynasty in the 12th century and is known for its impressive
+                           architecture and intricate carvings. It is called the Thousand Pillar Temple because of the
+                           numerous
+                           pillars that support the temple structure, each of which is uniquely carved. The temple is a
+                           popular tourist attraction and is visited by thousands of people every year.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-8 end -->
+            <!-- flip card-9 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="images/m_t_zoo.jpeg" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black"><u>
+                              <center>NEHRU ZOOLOGICAL PARK</center>
+                           </u></h3>
+                           <p style="font-family:'BASKERVILLE OLD FACE'">
+                           Nehru Zoological Park is a popular zoo located in Hyderabad, Telangana, India. It was
+                           established in 1959 and covers an area of approximately 380 acres. The zoo is home to over
+                           1,000 animals and birds from various species, including tigers, lions, elephants, giraffes,
+                           and many others. Nehru Zoological Park is known for its conservation efforts and research
+                           programs aimed at protecting endangered species. The zoo also features a natural history
+                           museum, a train ride, and a variety of other attractions for visitors. It is a popular
+                           destination for families, school groups, and animal lovers.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-9 end -->
+         </div>
+      </div>
+      <div class="container1">
+         <h1 style="font-weight: bold;color: black"><u>
+               <center>ABOUT THE STATE</center>
+            </u></h1>
+         <p style="font-family: 'BASKERVILLE OLD FACE';font-size: 30px;">
+            Telangana is a state located in southern India, formed in 2014 after being separated from Andhra Pradesh. It
+            covers an area of approximately 114,840 square kilometers and has a population of over 35 million people.
+            The state is known for its rich cultural heritage, historical landmarks, and diverse population. Telugu is
+            the official language of the state, and Hyderabad is its capital city.
+
+            The state of Telangana has a rich history dating back to the ancient period. The region was ruled by various
+            dynasties, including the Satavahanas, Kakatiyas, and the Nizams of Hyderabad. Telangana is home to several
+            famous landmarks and tourist attractions, such as the Charminar, Golconda Fort, Ramappa Temple, and the
+            Thousand Pillar Temple. These landmarks are a testament to the state's rich cultural heritage and historical
+            significance.
+
+            Telangana is predominantly an agrarian state, with agriculture being the mainstay of the economy. The state
+            is known for producing rice, cotton, and other crops. The government has also made efforts to promote
+            industrial growth in the state, with Hyderabad being a major center for technology and industry. The state
+            has a thriving IT industry and is home to several multinational companies.
+
+            Telangana is known for its diverse population and cultural traditions. The state is home to several
+            indigenous communities, such as the Gonds, Koyas, and Lambadas. The people of Telangana are known for their
+            hospitality and warm nature. The state celebrates several festivals and events throughout the year, such as
+            Bathukamma, Bonalu, and the Hyderabad Literary Festival.
+
+            Hyderabad, the capital city of Telangana, is a major center for education, healthcare, and technology. It is
+            home to several world-renowned educational institutions, such as the Indian School of Business, and the
+            International Institute of Information Technology. The city is also known for its rich cuisine, which is a
+            mix of traditional and modern dishes.
+
+            In conclusion, Telangana is a state with a rich cultural heritage, diverse population, and a thriving
+            economy. The state is known for its historical landmarks, traditional cuisine, and vibrant festivals. With a
+            focus on promoting industrial growth and technology, Telangana is poised to become a major player in the
+            global economy.
+         </p>
+      </div>
+      <div style="text-align:center"> 
+         <button style="border-radius: 10px;color: blue; background-color: azure;size:20px;" onclick="playPause()">Play/Pause</button> 
+         <button style="border-radius: 10px;color: blue; background-color: azure; "onclick="makeBig()">Big</button>
+         <button style="border-radius: 10px;color: blue; background-color: azure;"onclick="makeSmall()">Small</button>
+         <button style="border-radius: 10px;color: blue; background-color: azure;"onclick="makeNormal()">Normal</button>
+         <br><br>
+         </div>
+      <iframe id="video1" width="640" height="360" src="https://www.youtube.com/embed/f0-uzfvPdw0" title="Discovery of Telangana, Telangana Tourism Film - May 2017" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <script> 
+         var myVideo = document.getElementById("video1"); 
+         
+         function playPause() { 
+           if (myVideo.paused) 
+             myVideo.play(); 
+           else 
+             myVideo.pause(); 
+         } 
+         
+         function makeBig() { 
+             myVideo.width = 1260; 
+         } 
+         
+         function makeSmall() { 
+             myVideo.width = 320; 
+         } 
+         
+         function makeNormal() { 
+             myVideo.width = 620; 
+         } 
+         </script> 
+
+      <div class="container2" contenteditable="false">
+         <ul class="menu-area">
+            <li style="font-size: large;">&copy; copyright 2023-2029</li>
+            <li style="font-size: 10px;"><a href="HomePage.html" target="_blank">Home</a></li>
+            <li style="font-size: 10px;"><a href="index2.html" target="_blank">About</a></li>
+            <li style="font-size: 10px;"><a href="creators.html" target="_blank">Contact us</a></li>
+         </ul>
+      </div>
+</body>
+
+</html>

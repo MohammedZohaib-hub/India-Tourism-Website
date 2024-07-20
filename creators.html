@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(orange, white, green);
+        }
+        .profile {
+            position: relative;
+            width: 300px;
+            height: 350px;
+            background: url("zohaib.jpg");
+            background-size: cover;
+            cursor: pointer;
+            border: 12px;
+            border-top-right-radius: 35px !important;
+            border-radius: 6px;
+        }
+        .overlay {
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            border-radius: 12px;
+            cursor: pointer;
+            opacity: 0;
+            transition: all 1s;
+            border-top-right-radius: 35px !important;
+            border-radius: 6px;
+        }
+        .profile:hover .overlay {
+            opacity: 1;
+        }
+        .social-icons {
+            display: flex;
+            list-style: none;
+            bottom: 10px;
+            position: absolute;
+            text-align: center;
+            justify-content: center;
+            left: 22px;
+        }
+        .social-icons li {
+            width: 25px;
+            height: 25px;
+            border: 1px solid #eee;
+            padding: 20px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            border-radius: 5px;
+            transition: all 1s;
+        }
+        .social-icons li:hover {
+            background: #fff;
+            color: #000;
+        }
+        .overlay .about {
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            top: 40%;
+            color: #fff;
+            flex-direction: column;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="profile">
+            <div class="overlay">
+                <div class="about d-flex flex-column">
+                    <h4>Mohammed Zohaib</h4>
+                    <span>FrontEnd Developer</span>
+                </div>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/profile.php?id=100010836484371" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mohammed-zohaib-450498227/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <p style="font-weight: bold;color: white; text-align: center;">Message us on our email:<br> zohaibzabi390@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Rajasthan</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="css/flipstyle.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <style>
+ *{
+	margin: 0px;
+	padding: 0px;
+	/* box-sizing: border-box; */
+	font-family: arial;
+}
+body{
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* min-height: 20px; */
+	background: #000;
+    /* font-family: chiller; */
+}
+     h2{
+    margin: 10px;
+    padding: 30px;
+	position: relative;
+	font-size: 3em;
+	letter-spacing: 5px;
+	color: #0e3742;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	-webkit-box-reflect : below 1px linear-gradient(transparent , #0004);
+	line-height: 0.70em;
+	outline: none;
+	animation: animate 3s linear infinite;
+}
+@keyframes animate{
+	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+		color: #0e3742;
+		text-shadow: none;
+	}
+	18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+		color: #fff;
+		text-shadow: 0 0 10px #ff1414,
+		            0 0 20px #ff1414,
+		            0 0 40px hwb(0 8% 0%),
+		            0 0 80px #ff1414,
+		            0 0 160px #ff1414;
+
+	}
+}
+
+.menu-area{
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu-area li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 5px;
+}
+.menu-area li a{
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    transition: all .6s ease-in;    
+}
+.menu-area li a:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background: #fff;
+    left: 0;
+    bottom: -15px;
+    transition: 0.6s;
+}
+.menu-area li a:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background: #fff;
+    right: 0;
+    top: -15px;
+    transition: 0.6s;
+}
+.menu-area li a:hover{
+    text-shadow: 0 0 10px rgba(233,85,99,1),
+	0 0 10px rgba(233,85,99,1);
+}
+.menu-area li a:hover:after{
+    width: 100%;
+    background: #fff;
+	box-shadow: 0 0 10px deepskyblue,
+	0 0 10px deepskyblue;
+}
+.menu-area li a:hover:before{
+    width: 100%;
+    background: #fff;
+	box-shadow: 0 0 10px deepskyblue,
+	0 0 10px deepskyblue;
+}
+.container1{
+    background-color: grey;
+}
+.container2{
+   background-color: rgba(255, 255, 0, 0.639);
+}
+   </style>
+</head>
+
+<body>
+   <h2><center>Welcome to Rajasthan Tourism</center></h2>
+   <div class="flip-main">
+      <div class="container">
+         <div class="row">
+            <!-- flip card-1 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="rpark (1).png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>RanthamBore National Park</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">Ranthambore National Park is one of the biggest and most renowned national parks in Northern India. The park is located in the Sawai Madhopur district of southeastern Rajasthan, which is about 130 km from Jaipur.
+
+                            Once considered as one of the famous and former hunting grounds of the Maharajas of Jaipur, today the Ranthambore National Park terrain is a major wildlife tourist attraction that has drawn the attention of many wildlife photographers and lovers.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-1 end -->
+            <!-- flip card-2 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="amer-fort-jaipur.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color:black;font-weight: bold;"><u><center>Amber Palace </center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">One of the top tourist attractions of Jaipur, the huge Amer Palace Fort sits atop a small hill, and is located at a distance about 11 km from the main city. The magnificent Amer Fort is an extensive palace complex that has been built with pale yellow and pink sandstone, and with white marble.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-2 end -->
+            <!-- flip card-3 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="mehrangarh-Fort-Jodhpur.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Mehrangarh Fort</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">
+                           Mehrangarh the Fort of Jodhpur crowns a rocky hill that rises 400 feet above the surrounding plain, and appears both to command and to meld with the landscape. One of the largest forts in Rajasthan, it contains some of the finest palaces and preserves in its museum many priceless relics of Indian courtly life.
+                            For over five centuries Mehrangarh has been the headquarters of the senior branch of Rajput clan known as the Rathores. According to their bards, the ruling dynasty of this clan had at an earlier period controlled Kanauj (in what is known as Uttar Pradesh). 
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-3 end -->
+            <!-- flip card-4 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="hawa mahal.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Hawa Mahal</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">The Hawa Mahal in Jaipur is considered as one of the most iconic attractions of the city. The five-storey building looks like a honeycomb of a beehive and it is always windy inside.This amazing ventilation that the palace enjoys is the reason why it was named as the Hawa Mahal, which literally translates into the “Palace of the Winds”.The main purpose behind the construction of this palace was to allow the ladies of the royal family without being seen themselves.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-4 end -->
+            <!-- flip card-5 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="Shiv_niwas_avanindra.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Shiv-Niwas-palace</center></u></h3>
+                        <p style="font-style: oblique;">ALocated to the south side of and part of the City Palace complex, work on this building was begun by Maharana Sajjan Shambhu Singh (1874 to 1884) and finished by his successor Maharana Fateh Singh at the beginning of the 20th century as a royal guesthouse.
+                            During its time as a guesthouse it hosted a number of royal gatherings and VIP visits from all over the world, including George V of the United Kingdom in 1905, and Edward the Prince of Wales.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-5 end -->
+            <!-- flip card-6 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="city palace.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>City Palace</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">Located deep within the walled city, the City Palace Complex was conceived and built by Maharaja Sawai Jai Singh II, the founder of Jaipur. A beautiful fusion of Mughal and Rajput architecture, the palace is still home to the last ruling royal family which lives in a private section of the palace.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-6 end -->
+            <!-- flip card-7 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="jaisalmer.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Jaisalmer</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">This 'Golden City' is located close to the Pakistan border and in close proximity to the Thar Desert. The city's most prominent landmark is the Jaisalmer Fort, also called Sonar Qila (Golden Fort). Unlike most other forts in India, Jaisalmer Fort is not just a tourist attraction..</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-7 end -->
+            <!-- flip card-8 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="mount abu.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Mount Abu</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">
+                            Serving as a source of comfort from the sultry dessert climate of Rajasthan, Mount Abu, the state’s only hill station stands at a height of 1722 metres above sea level, and is embraced by lush green hills of the Aravalli range. Studded with a colourful mix of rustic abodes of tribal communities and posh houses inclusive of British style bungalows and royal holiday lodges Covered in vast stretches of green forests, serene lakes, and effusive waterfalls, this region allows you to revel amidst panoramic vistas, all year round.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-8 end -->
+            <!-- flip card-9 start -->
+            <div class="flip-card">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img src="ajmer.png" alt="flip-card">
+                  </div>
+                  <div class="flip-card-back">
+                     <div class="text">
+                        <h3 style="color: black;font-weight: bold;"><u><center>Ajmer Dargah</center></u></h3>
+                        <p style="font-family:'BASKERVILLE OLD FACE'">
+                            South west of Jaipur, Ajmer is an oasis wrapped in the green hills. The city was founded by Raja Ajay Pal Chauhan in the 7th Century A.D. and continued to be a major centre of the Chauhan power till 1193 A.D. When Prithviraj Chauhan lost it to Mohammed Gaure. Since then, Ajmer became home to many dynasties
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- flip card-9 end -->
+         </div>
+      </div>
+      <div class="container1">
+        <h1 style="font-weight: bold;color: black"><u><center>ABOUT THE STATE</center></u></h1>
+         <p style="font-family:'BASKERVILLE OLD FACE';font-size: 30px;">
+            Rajasthan is a state located in the northern part of India. It is the largest state in terms of area, covering an area of approximately 342,239 square kilometers, and is bordered by Pakistan to the west, Gujarat to the southwest, Madhya Pradesh to the southeast, Uttar Pradesh to the northeast, and Haryana to the north.
+
+            The capital city of Rajasthan is Jaipur, which is also known as the "Pink City" due to the color of the buildings in the old city. Other major cities in Rajasthan include Jodhpur, Udaipur, Bikaner, Ajmer, and Kota.
+            
+            Rajasthan is known for its rich cultural heritage, which includes its colorful folk music and dance, its magnificent forts and palaces, and its vibrant festivals, such as the Pushkar Fair, the Elephant Festival, and the Desert Festival.
+            
+            The state is also home to several wildlife sanctuaries and national parks, including the Ranthambore National Park, Sariska Tiger Reserve, Keoladeo National Park, and the Desert National Park.
+            
+            Rajasthan has a predominantly arid climate, with hot summers and cool winters. The economy of Rajasthan is primarily based on agriculture and tourism, with the state being a major producer of crops such as wheat, maize, and mustard. The state is also known for its handicrafts and textiles, including the famous Bandhani and Leheriya fabrics.
+        </p>
+    </div>
+    <div style="text-align:center"> 
+      <button style="border-radius: 10px;color: blue; background-color: azure;size:20px;" onclick="playPause()">Play/Pause</button> 
+      <button style="border-radius: 10px;color: blue; background-color: azure; "onclick="makeBig()">Big</button>
+      <button style="border-radius: 10px;color: blue; background-color: azure;"onclick="makeSmall()">Small</button>
+      <button style="border-radius: 10px;color: blue; background-color: azure;"onclick="makeNormal()">Normal</button>
+      <br><br>
+      </div>
+  <iframe id="video1" width="640" height="360" src="https://www.youtube.com/embed/boV3d3ykEro" title="Rajasthan Tour in JUST 7 Days || Full Rajasthan Itinerary of 7 Days by TravelMock 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <script> 
+      var myVideo = document.getElementById("video1"); 
+      
+      function playPause() { 
+        if (myVideo.paused) 
+          myVideo.play(); 
+        else 
+          myVideo.pause(); 
+      } 
+      
+      function makeBig() { 
+          myVideo.width = 1260; 
+      } 
+      
+      function makeSmall() { 
+          myVideo.width = 320; 
+      } 
+      
+      function makeNormal() { 
+          myVideo.width = 620; 
+      } 
+      </script> 
+            <div class="container2" contenteditable="false">
+            <ul class="menu-area">
+                <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+                <li style="font-size: large;">&copy; copyright 2023-2029</li>
+                <li style="font-size: 10px;"><a href="HomePage.html" target="_blank">Home</a></li>
+                <li style="font-size: 10px;"><a href="index2.html" target="_blank">About</a></li>
+                <li style="font-size: 10px;"><a href="creators.html" target="_blank">Contact us</a></li>
+            </ul>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KERALA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/flipstyle.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            /* box-sizing: border-box; */
+            font-family: arial;
+        }
+
+        body {
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* min-height: 20px; */
+            background: #000;
+            /* font-family: chiller; */
+        }
+
+        h2 {
+            margin: 10px;
+            padding: 30px;
+            position: relative;
+            font-size: 3em;
+            letter-spacing: 5px;
+            color: #0e3742;
+            text-transform: uppercase;
+            width: 100%;
+            text-align: center;
+            -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+            line-height: 0.70em;
+            outline: none;
+            animation: animate 3s linear infinite;
+        }
+
+        @keyframes animate {
+
+            0%,
+            18%,
+            20%,
+            50.1%,
+            60%,
+            65.1%,
+            80%,
+            90.1%,
+            92% {
+                color: #0e3742;
+                text-shadow: none;
+            }
+
+            18.1%,
+            20.1%,
+            30%,
+            50%,
+            60.1%,
+            65%,
+            80.1%,
+            90%,
+            92.1%,
+            100% {
+                color: #fff;
+                text-shadow: 0 0 10px #39ff14,
+                    0 0 20px #39ff14,
+                    0 0 40px #39ff14,
+                    0 0 80px #39ff14,
+                    0 0 160px #39ff14;
+
+            }
+        }
+
+        .menu-area {
+            display: flex;
+            align-items: last baseline;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .menu-area li {
+            display: inline-block;
+            list-style: none;
+            margin: 5px 5px;
+        }
+
+        .menu-area li a {
+            color: red;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 500;
+            position: relative;
+            transition: all .6s ease-in;
+        }
+
+        .menu-area li a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 4px;
+            background: #fff;
+            left: 0;
+            bottom: -15px;
+            transition: 0.6s;
+        }
+
+        .menu-area li a:before {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 4px;
+            background: #fff;
+            right: 0;
+            top: -15px;
+            transition: 0.6s;
+        }
+
+        .menu-area li a:hover {
+            text-shadow: 0 0 10px rgba(233, 85, 99, 1),
+                0 0 10px rgba(233, 85, 99, 1);
+        }
+
+        .menu-area li a:hover:after {
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 0 10px deepskyblue,
+                0 0 10px deepskyblue;
+        }
+
+        .menu-area li a:hover:before {
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 0 10px deepskyblue,
+                0 0 10px deepskyblue;
+        }
+
+        .container1{
+            background-color: grey;
+        }
+        .container2{
+            background-color:rgba(217, 255, 0, 0.74);
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        <center>Welcome to Kerala Tourism</center>
+    </h2>
+    <div class="flip-main">
+        <div class="container">
+            <div class="row">
+                <!-- flip card-1 start -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/m_k_bekal.jpg" alt="flip-card">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="text">
+                                <h3 style="color: BLACK"><u>
+                                        <center>BEKAL</center>
+                                    </u></h3>
+                                <p style="font-family:'BASKERVILLE OLD FACE'">Bekal is a small coastal town located in
+                                    the Kasaragod district of Kerala, India. It is known for its beautiful beach,
+                                    historic fort, and scenic backwaters. The Bekal Fort is a major tourist attraction,
+                                    which offers stunning views of the Arabian Sea. The town is also famous for its
+                                    traditional art forms, such as Theyyam and Yakshagana. Bekal is a popular
+                                    destination for those seeking a peaceful and scenic getaway from the city.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- flip card-1 end -->
+                <!-- flip card-2 start -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/m_k_kochi.jpg" alt="flip-card">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="text">
+                                <h3 style="color: black;"><u>
+                                        <center>KOCHI</center>
+                                    </u></h3>
+                                <p style="font-family:'BASKERVILLE OLD FACE'">Kochi, also known as Cochin, is a vibrant
+                                    port city located in the southern state of Kerala, India. It is known for its
+                                    historic landmarks, bustling spice markets, and serene backwaters. The city has a
+                                    rich cultural heritage, shaped by its history as a trading center for spices, tea,
+                                    and textiles. Kochi is home to several iconic landmarks, such as the Chinese fishing
+                                    nets, Mattancherry Palace, and the St. Francis Church. The city is also known for
+                                    its delicious cuisine, which is influenced by its diverse cultural mix.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- flip card-2 end -->
+                <!-- flip card-3 start -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/m_k_kollam.jpg" alt="flip-card">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="text">
+                                <h3 style="color: BLACK"><u>
+                                        <center>KOLLAM</center>
+                                    </u></h3>
+                                <p style="font-family:'BASKERVILLE OLD FACE'">Kollam, also known as Quilon, is a
+                                    historic coastal town located in the southern state of Kerala, India. It is known
+                                    for its beautiful beaches, backwaters, and lush greenery. The town has a rich
+                                    history, shaped by the Portuguese, Dutch, and British who established trading ports
+                                    in the area. Kollam is a major center for cashew processing and fishing industries.
+                                    The town is also known for its traditional art forms, such as Kathakali and
+                                    Koodiyattam, which are performed during various festivals throughout the year.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- flip card-3 end -->
+                <!-- flip card-4 start -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/m_k_kovalam.jpg" alt="flip-card">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="text">
+                                <h3 style="color: BLACK"><u>
+                                        <center>KOVALAM</center>
+                                    </u></h3>
+                                <p style="font-family:'BASKERVILLE OLD FACE'">Kovalam is a popular beach town located in
+                                    the southern state of Kerala, India. It is known for its serene beaches, picturesque
+                                    landscapes, and tranquil atmosphere. The town attracts tourists from all over the
+                                    world, who come to enjoy the sandy beaches, clear waters, and stunning sunsets.
+                                    Kovalam has a thriving tourism industry, with several resorts, restaurants, and
+                                    water sports facilities. The town is also known for its traditional Ayurvedic
+                                    treatments and therapies, which are popular among wellness enthusiasts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- flip card-4 end -->
+                <!-- flip card-5 start -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/m_k_kumarakom.jpg" alt="flip-card">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="text">
+                                <h3 style="color:BLACK"><u>
+                                        <center>KUMARAKOM</center>
+                                    </u></h3>
+                                <p style="font-family:'BASKERVILLE OLD FACE'">Kumarakom is a serene village located in
+                                    the Kottayam district of the southern state of Kerala, India. It is known for its
+                                    picturesque backwaters, lush greenery, and bird sanctuary. The village is situated
+                                    on the banks of the Vembanad Lake, which is the largest lake in Kerala. Kumarakom is
+                                    a popular destination for nature lovers and bird watchers, with several species of
+                                    migratory birds visiting the area during winter months. The village is also known
+                                    for its traditional houseboats, which offer a unique and unforgettable experience of
+                                    cruising through the backwaters.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- flip card-5 end -->
+                <!-- flip card-6 start -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/m_k_munnar.jpg" alt="flip-card">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="text">
+                                <h3 style="color: BLACK"><u>
+                                        <center>MUNNAR</center>
+                                    </u></h3>
+                                <p style="font-family:'BASKERVILLE OLD FACE'">Munnar is a scenic hill station located in
+                                    the Idukki district of the southern state of Kerala, India. It is known for its
+                                    stunning landscapes, tea plantations, and cool climate. The town is situated at an
+                                    altitude of 1,600 meters above sea level, and offers breathtaking views of the
+                                    Western Ghats. Munnar is a popular destination for trekking, camping, and wildlife
+                                    tours, with several national parks and wildlife sanctuaries in the area. The town is
+                                    also known for its tea industry, with several tea plantations and factories offering
+                                    tours and tastings for visitors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- flip card-6 end -->
+                <!-- flip card-7 start -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/m_k_thiruvananthapuram.jpg" alt="flip-card">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="text">
+                                <h3 style="color: BLACK"><u>
+                                        <center>THIRUVANANTHAPURAM</center>
+                                    </u></h3>
+                                <p style="font-family:'BASKERVILLE OLD FACE'">Thiruvananthapuram, also known as
+                                    Trivandrum, is the capital city of the southern state of Kerala, India. It is known
+                                    for its rich cultural heritage, historic landmarks, and scenic beaches. The city is
+                                    home to several iconic landmarks, such as the Padmanabhaswamy Temple, Kuthira Malika
+                                    Palace, and the Napier Museum. Thiruvananthapuram is also known for its serene
+                                    beaches, such as Kovalam and Shankumugham, which attract tourists from all over the
+                                    world. The city has a thriving tourism industry, with several hotels, restaurants,
+                                    and entertainment options.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- flip card-7 end -->
+                <!-- flip card-8 start -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/m_k_varkala.jpg" alt="flip-card">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="text">
+                                <h3 style="color: BLACK"><u>
+                                        <center>VARKALA</center>
+                                    </u></h3>
+                                <p style="font-family:'BASKERVILLE OLD FACE'">
+                                    Varkala is a serene coastal town located in the southern state of Kerala, India. It
+                                    is known for its picturesque beaches, cliffs, and ancient temples. The town is
+                                    situated on the Arabian Sea and attracts tourists from all over the world, who come
+                                    to enjoy the sandy beaches, clear waters, and stunning sunsets. Varkala is also
+                                    known for its natural mineral springs, which are believed to have medicinal
+                                    properties. The town has a thriving tourism industry, with several resorts,
+                                    restaurants, and water sports facilities. Varkala is a popular destination for yoga
+                                    and Ayurveda enthusiasts, with several centers offering classes and therapies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- flip card-8 end -->
+                <!-- flip card-9 start -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/m_k_wayanad.jpg" alt="flip-card">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="text">
+                                <h3 style="color: black"><u>
+                                        <center>WAYANAD</center>
+                                    </u></h3>
+                                <p style="font-family:'BASKERVILLE OLD FACE'">
+                                    Wayanad is a hill district located in the northern part of Kerala. It is known for
+                                    its scenic beauty, wildlife sanctuaries, and hill stations. The district is home to
+                                    several indigenous tribes and has a rich cultural heritage. Wayanad is also known
+                                    for its spice plantations and organic farming practices. The district has several
+                                    popular tourist destinations such as Chembra Peak, Edakkal Caves, and Banasura Sagar
+                                    Dam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- flip card-9 end -->
+            </div>
+        </div>
+        <div class="container1" contenteditable="false">
+            <h1 style="font-weight: bold;color: black;"><u>
+                    <center>ABOUT THE STATE</center>
+                </u></h1>
+            <p style="font-family: 'BASKERVILLE OLD FACE';font-size: 20pt;">
+                Kerala, located in the southwestern part of India, is a state that is known for its natural beauty,
+                diverse culture, and rich history. It is bordered by the Arabian Sea on the west and the Western Ghats
+                on the east, which gives the state a unique landscape with a diverse flora and fauna.
+
+                One of the major attractions of Kerala is its backwaters, which is a network of interconnected canals,
+                lagoons, and lakes that stretch over 900 kilometers. The backwaters are a popular tourist destination,
+                with several options for houseboat cruises, kayaking, and canoeing. The backwaters are also home to a
+                unique ecosystem and several species of birds and fishes.
+
+                Kerala is also known for its beautiful beaches, such as Kovalam, Varkala, and Cherai. These beaches are
+                known for their golden sands, clear waters, and stunning sunsets. Kerala also has several hill stations,
+                such as Munnar, Wayanad, and Thekkady, which are popular destinations for trekking, camping, and
+                wildlife safaris.
+
+                Kerala has a rich history and culture, with several ancient temples, churches, and palaces. The state is
+                home to several UNESCO World Heritage Sites, such as the backwaters of Alleppey, the hill station of
+                Munnar, and the historic town of Fort Kochi. The state is also known for its unique art forms, such as
+                Kathakali, Mohiniyattam, and Theyyam, which are performed during festivals and cultural events.
+
+                Kerala's cuisine is also unique, with a blend of spices, coconut, and seafood being the main
+                ingredients. The cuisine is known for its variety and includes dishes like dosa, idli, appam, and
+                seafood curries. The state is also famous for its tea and coffee plantations, which produce some of the
+                best tea and coffee in the country.
+
+                Kerala is also known for its Ayurvedic treatments and therapies, which have been practiced for
+                centuries. The state has several Ayurvedic centers, spas, and wellness resorts that offer a range of
+                treatments and massages. These therapies are known for their holistic approach to health and well-being.
+
+                Kerala has a well-developed tourism industry, with several options for accommodation, transportation,
+                and entertainment. The state has several luxury resorts, hotels, and homestays, which offer a unique and
+                authentic experience to travelers. Kerala is a state that is known for its hospitality and warmth
+                towards visitors.
+            </p>
+            </div>
+            <div style="text-align:center"> 
+                <button style="border-radius: 10px;color: blue; background-color: azure;size:20px;" onclick="playPause()">Play/Pause</button> 
+                <button style="border-radius: 10px;color: blue; background-color: azure; "onclick="makeBig()">Big</button>
+                <button style="border-radius: 10px;color: blue; background-color: azure;"onclick="makeSmall()">Small</button>
+                <button style="border-radius: 10px;color: blue; background-color: azure;"onclick="makeNormal()">Normal</button>
+                <br><br>
+                <iframe id="video1" width="750" height="360" src="https://www.youtube.com/embed/R83BlU5nnbs" title="Signature Video  | Kerala Tourism | Experience God’s Own Country" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <script> 
+                    var myVideo = document.getElementById("video1"); 
+                    
+                    function playPause() { 
+                      if (myVideo.paused) 
+                        myVideo.play(); 
+                      else 
+                        myVideo.pause(); 
+                    } 
+                    
+                    function makeBig() { 
+                        myVideo.width = 1260; 
+                    } 
+                    
+                    function makeSmall() { 
+                        myVideo.width = 420; 
+                    } 
+                    
+                    function makeNormal() { 
+                        myVideo.width = 720; 
+                    } 
+                    </script> 
+            <div class="container2" contenteditable="false">
+            <ul class="menu-area">
+                <li style="font-size: large;">&copy; copyright 2023-2029</li>
+                <li style="font-size: 10px;"><a href="HomePage.html" target="_blank">Home</a></li>
+                <li style="font-size: 10px;"><a href="index2.html" target="_blank">About</a></li>
+                <li style="font-size: 10px;"><a href="creators.html" target="_blank">Contact us</a></li>
+            </ul>
+        </div>
+</body>
+
+</html>
